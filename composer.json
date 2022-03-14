@@ -14,17 +14,17 @@
             "homepage": "https://github.com/arkdevuk"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-      "php": ">=8.0.0"
+        "php": ">=8.0.0"
     },
     "support": {
         "issues": "https://github.com/arkdevuk/business-hours/issues",
         "source": "https://github.com/arkdevuk/business-hours"
     },
     "autoload": {
-      "psr-4": {
-        "ArkdevukBusinessHours\\": "src/",
+        "psr-4": {
+            "ArkdevukBusinessHours\\": "src/",
         "App\\": "examples/"
         }
     }
