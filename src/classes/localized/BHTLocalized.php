@@ -100,6 +100,10 @@ abstract class BHTLocalized implements BHToStringInterface
         $output = '<ul class="business-hours ul-reset">'.PHP_EOL;
 
         foreach ($days as $iD => $d) {
+            if (isset($d['src']['active']) && $d['src']['active'] === false
+                && isset($this->options['hide_inactive']) && $this->options['hide_inactive'] === true) {
+                continue;
+            }
             $todayClass = '';
             if (isset($d['src']['today']) && $d['src']['today'] === true) {
                 $todayClass = ' is-today ';

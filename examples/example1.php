@@ -43,6 +43,7 @@ $wrapper->addRange($r2);
 
 $locale = 'fr_FR';
 $options = [
+    'hide_inactive' => true,
     'mode' => 'details',
 ];
 
