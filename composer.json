@@ -1,0 +1,31 @@
+{
+    "name": "arkdevuk/business-hours",
+    "description": "easy to use library to represent business hours as object/string",
+    "homepage": "https://github.com/arkdevuk/business-hours",
+    "keywords": [
+        "business-hours", "utility", "datetime"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arkdevuk",
+            "email": "florian.chambon-lacoste@weemars.fr",
+            "homepage": "https://github.com/arkdevuk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=7.4.0",
+    },
+    "support": {
+        "issues": "https://github.com/arkdevuk/business-hours/issues",
+        "source": "https://github.com/arkdevuk/business-hours"
+    },
+    "autoload": {
+      "psr-4": {
+        "ArkdevukBusinessHours\\": "src/",
+        "App\\": "examples/"
+        }
+    }
+}
